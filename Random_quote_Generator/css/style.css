@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Poppins&family=Roboto&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-child {
+    width: 80%;
+    background-color: black;
+    color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.generate-btn {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 4px 5px;
+    border-radius: 15px;
+
+}
+
+.generate-btn:hover {
+    background: green;
+    color: white;
+}
+
+h3 {
+    color: #ffffff;
+    max-width: 50%;
+}
+
+
