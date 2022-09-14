@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.Digi-container {
+    padding: 2rem;
+    margin-top: 3rem;
+    font-family: 'Orbitron','sans-serif';
+    font-size: 3.8rem;
+    color: red;
+    text-decoration: dotted;
+}
+
+.dark-mode {
+    background-color: #2e2d2d;
+    color: #ffffff;
+}
