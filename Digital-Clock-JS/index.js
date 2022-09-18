@@ -2,11 +2,20 @@ const toggleButton = document.querySelector('.toggleButton');
 const hoursEle = document.querySelector('#hours');
 const minutesEle = document.querySelector('#minutes');
 const secondsEle = document.querySelector('#seconds');
-const statusEle = document.querySelector('#status')
+const statusEle = document.querySelector('#status');
+const darkModeId = document.querySelector('#darkId');
 
 
 toggleButton.addEventListener('click' , () => {
-    document.body.classList.toggle('dark-mode')
+    document.body.classList.toggle('dark-mode');
+    let classList = document.body.classList;
+    if (classList[0] === 'dark-mode') {
+        darkModeId.textContent = 'Light-mode';
+        darkModeId.style.color = 'black';
+    } else {
+        darkModeId.textContent = 'Dark-mode'
+        darkModeId.style.color = 'black';
+    }
 })
 
 

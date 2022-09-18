@@ -17,3 +17,10 @@ body {
     background-color: #2e2d2d;
     color: #ffffff;
 }
+
+@media (max-width:600px) {
+    .Digi-container {
+        font-size: 1rem;
+        padding: .5rem;
+    }
+}
